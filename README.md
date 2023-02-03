@@ -1,4 +1,4 @@
-# 利用IR和Web Crawler實作QAbot
+# 利用IR和Web Crawler實作QAbot (README待更新)
 
 ## IR做法(create_final_ans_1.ipynb)
 
@@ -14,6 +14,6 @@
 - Method 2: TF-IDF
 - Method 3: Human Take Control
 
-## Web Crawler做法
+## Web Crawler做法(爬蟲1、2、3、create_final_ans_2.ipynb)
 
 ## 開始解題
