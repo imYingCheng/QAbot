@@ -3,7 +3,7 @@
 ## IR做法(create_final_ans_1.ipynb)
 
 ### Build Inverted Index
-對繁體中文wiki的RDD Format建立反向索引。
+對繁體中文wiki的RDD Format建立反向索引。<br>
 繁體中文wiki的RDD Format: <a>https://drive.google.com/file/d/1i9NhH1rq6KZQBAXspscVrehR9Ketd-0_/view?usp=share_link</a>
 
 ### Load Inverted Index
