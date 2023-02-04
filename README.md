@@ -1,12 +1,13 @@
-# 利用IR和Web Crawler實作QAbot (README待更新)
+# 利用IR和Web Crawler實作QA機器人 (README待更新)
 
 ## IR做法(create_final_ans_1.ipynb)
 
 ### Build Inverted Index
-對繁體中文wiki的準RDD Format建立反向索引。
+對繁體中文wiki的RDD Format建立反向索引。
+繁體中文wiki的RDD Format: <a>https://drive.google.com/file/d/1i9NhH1rq6KZQBAXspscVrehR9Ketd-0_/view?usp=share_link</a>
 
 ### Load Inverted Index
-載入剛剛建好的反向索引。
+載入建好的反向索引。
 
 ### Question Solving
 
