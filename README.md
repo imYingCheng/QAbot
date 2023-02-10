@@ -1,6 +1,6 @@
-# 利用IR和Web Crawler實作QA機器人
+# 利用IR作法和Web Crawler作法實作QA機器人
 
-## IR做法(QAbot_IR.ipynb)
+## IR作法(QAbot_IR.ipynb)
 
 ### Build Inverted Index
 對繁體中文wiki的RDD Format建立反向索引。<br>
@@ -23,8 +23,8 @@
 - <b>Method 3: Human Take Control</b><br>
   預設為回傳Method 2所提供的答案，若警告訊息為"No Data"或"Low Confidence"，即將題目記錄下來，並由人工進行二次判定來修改答案。
  
-## Web Crawler做法(QAbot_WebCrawler.ipynb)
+## Web Crawler作法(QAbot_WebCrawler.ipynb)
 將問題丟入google搜尋，並擷取第一個搜尋結果的標題，若標題中出現某一選項的字詞，該選項即為答案。
 
-## 結合IR做法和Web Crawler做法
-以Web Crawler做法為主，找不到答案的題目再用IR做法補足，最後結合的答案即為本QAbot對整份試題的回答。
+## 結合IR作法和Web Crawler作法
+以Web Crawler作法為主，找不到答案的題目再用IR作法補足，最後結合的答案即為本QAbot對整份試題的回答。
